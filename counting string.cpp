@@ -15,7 +15,7 @@ int main()
         counting++;
         i++;
     }
-    cout<<"Length of the string is = "<<counting;
+    cout<<"Length of the "<<str<<" is = "<<counting;
 
     cout<<"\n\n\t\t\tDone!!!!";
 }
