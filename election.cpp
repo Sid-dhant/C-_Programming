@@ -33,9 +33,10 @@ int main()
         cin>>c[i].votes_recieved;
         c[i].display();
     }
+    largest=1;
     for(int j=1;j<=3;j++)
     {
-        if(c[1].votes_recieved<c[j].votes_recieved)
+        if(c[largest].votes_recieved<c[j].votes_recieved)
             largest=j;
     }
     cout<<"\nSo, the winner is "<<c[largest].name;
